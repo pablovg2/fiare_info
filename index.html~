@@ -28,6 +28,10 @@
 background: url(images/logo_s.png) 550px 550px no-repeat; 
 background-color: white;
     }
+#fiare .slides.template-default > article.biglogo  {
+background: none ; 
+background-color: white;
+    }
   </style>
 
   <body id="fiare" style='display: none'>
@@ -37,9 +41,9 @@ background-color: white;
       <!-- Your slides (<article>s) go here. Delete or comment out the
            slides below. -->
         
-           <article>
+           <article class="biglogo">
              <p>
-          <img class='centered' style='width: 100% ' src='images/logo_b.jpg'>
+          <img class='centered' style='width: 100%;margin:0 auto; ' src='images/logo_b.jpg'>
         </p>
       
       </article>
@@ -72,7 +76,7 @@ background-color: white;
 
     
 
-     <article>
+     <article class="smaller">
         <h3>
          5 RAZONES PARA HACERTE SOCI@ DE FIARE
         </h3>
@@ -127,11 +131,11 @@ bancarios del Banco de España como en cualquier otra entidad financiera.
         </ul>
  </article>
 
-        <article>
+        <article class="smaller">
         <h3>
        	5 PASOS PARA HACERTE SOCI@
         </h3>
-        <ul class="build">
+        <ul class="build ">
           <li>
         Rellena el documento “capital.social.personas” o
 “capital.social.entidades”. Puedes <a href="http://fiaresur.wordpress.com/documentos/" target="_blank"> descargártelo aquí </a>
@@ -157,11 +161,11 @@ y serás socio de capital social de Fiare.
         </ul>
  </article>
 
-        <article>
+        <article class="smaller">
         <h3>
        5 PASOS PARA ABRIR UN DEPÓSITO
         </h3>
-        <ul class="build small">
+        <ul class="build ">
           <li>
         Infórmate y elige tu producto FIARE en este <a href="http://www.proyectofiare.com/web/es/ahorro/tipos-de-depositos"> enlace </a>
           </li>
@@ -194,26 +198,29 @@ fiaresur.wordpress.com/%C2%BFa-donde-puedo-dirigirme).
         </ul>
  </article>
 
-        <article>
+        <article >
         <h3>
-       
+       5 VENTAJAS DE SER SOCI@ DE FIARE
         </h3>
         <ul class="build">
           <li>
-        
+        Como eres dueño de FIARE, puedes participar en la toma de decisiones
+del banco y en las comisiones de trabajo.
           </li>
           <li>
-          
+          En FIARE todos somos iguales: un socio es un voto, independiente del
+dinero aportado.
           </li>
           <li>
-       
+       Contribuyes a la construcción de un Sistema Financiero más justo al
+servicio de una economía alternativa y solidaria.
           </li>
 	  <li>
-         
+         Conocerás personalmente a las personas que forman tu banco.
           </li>
 
 	  <li>
-        
+        Podrás opinar sobre el tipo de proyectos que se financia con tu dinero.
           </li>
         </ul>
  </article>
