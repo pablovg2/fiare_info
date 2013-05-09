@@ -4,12 +4,14 @@
   Google HTML5 slide template
 
   Authors: Luke Mahé (code)
-           Marcin Wichary (code and design)
-           
+                    
            Dominic Mazzoni (browser compatibility)
            Charles Chen (ChromeVox support)
 
   URL: http://code.google.com/p/html5slides/
+
+  Content: Pabl Garcia
+	
 -->
 
 <html>
@@ -187,9 +189,8 @@ copia del DNI, o entrégalo en un punto de información Fiare.
           </li>
 	  <li>
          Al recibir los documentos de apertura de la cuenta, fírmalos y
-realiza la transferencia a la cuenta indicada (puedes acudir al punto
-de información de Fiare para que te ayuden, si lo necesitaras http://
-fiaresur.wordpress.com/%C2%BFa-donde-puedo-dirigirme).
+realiza la transferencia a la cuenta indicada <span class="smaller">(puedes acudir al punto
+de <a href="http://fiaresur.wordpress.com/%C2%BFa-donde-puedo-dirigirme">información de Fiare</a> para que te ayuden)</span>
           </li>
 
 	  <li>
