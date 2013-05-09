@@ -43,7 +43,7 @@ background-color: white;
         
            <article class="biglogo">
              <p>
-          <img class='centered' style='width: 100%;margin:0 auto; ' src='images/logo_b.jpg'>
+          <img class='centered' style='width:100%;' src='images/logo_b.jpg'>
         </p>
       
       </article>
