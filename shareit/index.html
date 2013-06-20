@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Example Page</title>
+	<link href="css/ui-darkness/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/jquery-ui-1.10.3.custom.js"></script>
+	<script>
+		$(function(){
+	        $.fx.speeds._default = 1000;
+	         
+	        // iframe que vamos a cargar en el UI Dialog
+	        var iframe = $('<iframe src="http://openkratio.github.io/whats-openkratio/" />');
+	             
+	        // UI Dialog
+	        iframe.dialog({
+	            autoOpen: false,
+	            modal: true,
+	            show: "blind",
+	            // title: "Fiare",
+	            resizable: false,
+	            width: 900,
+	            height: 500,
+	        });
+	         
+	        $('#openDialog').click(function() {
+	            iframe.dialog('open');
+	            return false;
+	        });
+	    });
+	</script>
+</head>
+<body>
+
+<h1>Fiare Share it!</h1>
+
+<a id="openDialog" href="#">See Fiare presentation...</a>
+
+</body>
+</html>
